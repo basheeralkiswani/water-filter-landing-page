@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+.pnp.*
+.yarn/
+
+# Build
+dist/
+build/
+.next/
+.vercel/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# State files (design tool artifacts)
+.image-slots.state.json

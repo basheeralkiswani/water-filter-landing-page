@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://madar-water.vercel.app/sitemap.xml

@@ -63,12 +63,9 @@ header{
 header.scrolled{border-color:var(--line);box-shadow:0 6px 24px -18px rgba(13,30,60,.4)}
 .nav{display:flex;align-items:center;justify-content:space-between;height:80px}
 .logo{display:flex;align-items:center;gap:12px;font-weight:800;font-size:1.4rem;letter-spacing:-.01em}
-.logo .mark{
-  width:42px;height:42px;border-radius:13px;flex:none;
-  background:linear-gradient(150deg,var(--blue),#3b8bff);
-  display:grid;place-items:center;box-shadow:0 10px 22px -10px rgba(13,110,253,.7);
+.logo .logo-img{
+  width:48px;height:48px;flex:none;object-fit:contain;
 }
-.logo .mark svg{width:23px;height:23px}
 .logo small{display:block;font-size:.72rem;font-weight:600;color:var(--slate);letter-spacing:.02em}
 .nav-links{display:flex;align-items:center;gap:8px}
 .nav-links a.nav-link{
